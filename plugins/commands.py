@@ -15,8 +15,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMedi
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
     buttons = [[
-        InlineKeyboardButton('♻️ Movie Group ♻️', url='https://t.me/DxHelpDesk'),
-        InlineKeyboardButton('♻️ Files Channel ♻️', url='https://t.me/DX_Botz')
+        InlineKeyboardButton('♻️ Movie Group ♻️', url='https://t.me/HDmoviePp'),
+        InlineKeyboardButton('♻️ Files Channel ♻️', url='https://t.me/HDmovieDp')
         ],[
         InlineKeyboardButton('💡 SouceCode', url='https://github.com/Ameenamaan/Auto-Forward-Bot'),
         InlineKeyboardButton('Dev 🤴', url ='https://t.me/Ameen_Ameen_12')
